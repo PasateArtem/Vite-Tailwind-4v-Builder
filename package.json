@@ -1,0 +1,23 @@
+{
+  "name": "vite-tailwindcss",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "sass": "^1.83.4",
+    "tailwindcss": "^4.0.3",
+    "vite": "^6.0.11"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.3",
+    "@tailwindcss/vite": "^4.0.3",
+    "dotenv": "^16.4.7",
+    "vite-plugin-html-inject": "^1.1.2"
+  }
+}
